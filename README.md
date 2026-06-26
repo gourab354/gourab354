@@ -11,7 +11,7 @@
 
 ### 🛠️ IoT Developer · Electronics Enthusiast · Smart Systems Builder
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+with+ESP32+%F0%9F%94%A7;3%C3%97+Hackathon+Finalist+%7C+2%C3%97+FOSET+1st+Prize+%F0%9F%8F%86;IoT+%7C+Embedded+Systems+%7C+ML+%7C+Web+Dev)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+with+ESP32+%F0%9F%94%A7;2%C3%97+Hackathon+Finalist+%7C+2%C3%97+FOSET+1st+Prize+%F0%9F%8F%86;IoT+%7C+Embedded+Systems+%7C+ML+%7C+Web+Dev)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gourab354)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/user_cooked98)
@@ -24,37 +24,9 @@
 
 ## ⚡ About Me
 
-```json
-{
-  "name"          : "Gourab",
-  "role"          : "IoT Developer & Electronics Enthusiast",
-  "location"      : "West Bengal, India 🇮🇳",
-
-  "achievements"  : [
-    "🏆  2× Hackathon Finalist",
-    "🥇  2× 1st Prize @ FOSET"
-  ],
-
-  "current_build" : "⚡ Smart Medicine Box",
-  "stack"         : "ESP32 + WebSocket + TFT + Node.js",
-
-  "focus"         : [
-    "Embedded Systems", "IoT Devices",
-    "Machine Learning", "Web Dev", "C / C++", "Python"
-  ],
-
-  "fun_fact"      : "I bridge hardware & software — from ESP32 firmware to web dashboards 🔧"
-}
-```
-
 <div align="center">
 
-![Embedded](https://img.shields.io/badge/Embedded_Systems-1f3a5c?style=flat-square&logo=cplusplus&logoColor=79c0ff)
-![IoT](https://img.shields.io/badge/IoT_Devices-1a3a27?style=flat-square&logo=espressif&logoColor=3fb950)
-![ML](https://img.shields.io/badge/Machine_Learning-2d1f5c?style=flat-square&logo=pytorch&logoColor=d2a8ff)
-![Web](https://img.shields.io/badge/Web_Dev-3d2800?style=flat-square&logo=nodedotjs&logoColor=ffa657)
-![C++](https://img.shields.io/badge/C_/_C++-3d1414?style=flat-square&logo=c&logoColor=ff7b72)
-![Python](https://img.shields.io/badge/Python-0d2d3a?style=flat-square&logo=python&logoColor=39d0d8)
+![About Gourab](https://raw.githubusercontent.com/gourab354/gourab354/main/about.svg)
 
 </div>
 

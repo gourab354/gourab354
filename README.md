@@ -152,7 +152,7 @@
 
 <table>
   <tr>
-    <td align="center"><img src="DSC09036.JPG" width="320" style="border-radius:12px"/><br/><br/><b>🏆 AOTIESTA</b></td>
+    <td align="center"><img src="DSC09036.JPG" width="320" style="border-radius:12px"/><br/><br/><b>🏆 AOTFIESTA</b></td>
     <td align="center"><img src="SUM_0208.JPG" width="320" style="border-radius:12px"/><br/><br/><b>🎯 View</b></td>
   </tr>
 </table>

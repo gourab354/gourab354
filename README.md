@@ -11,7 +11,7 @@
 
 ### 🛠️ IoT Developer · Electronics Enthusiast · Smart Systems Builder
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+with+ESP32+%F0%9F%94%A7;3%C3%97+Hackathon+Finalist+%7C+2%C3%97+FOSET+1st+Prize+%F0%9F%8F%86;IoT+%7C+Embedded+Systems+%7C+ML+%7C+Web+Dev)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+with+ESP32+%F0%9F%94%A7;2%C3%97+Hackathon+Finalist+%7C+2%C3%97+FOSET+1st+Prize+%F0%9F%8F%86;IoT+%7C+Embedded+Systems+%7C+ML+%7C+Web+Dev)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gourab354)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/user_cooked98)
@@ -114,7 +114,7 @@
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=gourab354&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7)
+![Trophies](https://github-profile-trophy.vercel.app/?username=gourab354&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=6&row=2)
 
 </div>
 
@@ -124,11 +124,7 @@
 
 <div align="center">
 
-![Top Repos](https://github-contributor-stats.vercel.app/api?username=gourab354&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true)
-
-</div>
-
----
+![Top Repos](https://github-contributor-stats.vercel.app/api?username=gourab354&limit=5&theme=github_dark&combine_all_yearly_contributions=true)
 
 ---
 

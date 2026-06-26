@@ -24,21 +24,39 @@
 
 ## ⚡ About Me
 
-```python
-class Gourab:
-    role       = "IoT Developer & Electronics Enthusiast"
-    location   = "West Bengal, India 🇮🇳"
-    focus      = ["Embedded Systems", "Smart IoT Devices", "ML Integration"]
-    
-    achievements = [
-        "🏆 3× Hackathon Finalist",
-        "🥇 2× 1st Prize @ FOSET",
-    ]
-    
-    currently_building = "Smart Medicine Box (ESP32 + WebSocket + TFT Dashboard)"
-    
-    fun_fact = "I bridge hardware and software — from ESP32 firmware to web dashboards 🔧"
+```json
+{
+  "name"          : "Gourab",
+  "role"          : "IoT Developer & Electronics Enthusiast",
+  "location"      : "West Bengal, India 🇮🇳",
+
+  "achievements"  : [
+    "🏆  2× Hackathon Finalist",
+    "🥇  2× 1st Prize @ FOSET"
+  ],
+
+  "current_build" : "⚡ Smart Medicine Box",
+  "stack"         : "ESP32 + WebSocket + TFT + Node.js",
+
+  "focus"         : [
+    "Embedded Systems", "IoT Devices",
+    "Machine Learning", "Web Dev", "C / C++", "Python"
+  ],
+
+  "fun_fact"      : "I bridge hardware & software — from ESP32 firmware to web dashboards 🔧"
+}
 ```
+
+<div align="center">
+
+![Embedded](https://img.shields.io/badge/Embedded_Systems-1f3a5c?style=flat-square&logo=cplusplus&logoColor=79c0ff)
+![IoT](https://img.shields.io/badge/IoT_Devices-1a3a27?style=flat-square&logo=espressif&logoColor=3fb950)
+![ML](https://img.shields.io/badge/Machine_Learning-2d1f5c?style=flat-square&logo=pytorch&logoColor=d2a8ff)
+![Web](https://img.shields.io/badge/Web_Dev-3d2800?style=flat-square&logo=nodedotjs&logoColor=ffa657)
+![C++](https://img.shields.io/badge/C_/_C++-3d1414?style=flat-square&logo=c&logoColor=ff7b72)
+![Python](https://img.shields.io/badge/Python-0d2d3a?style=flat-square&logo=python&logoColor=39d0d8)
+
+</div>
 
 ---
 

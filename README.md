@@ -11,7 +11,7 @@
 
 ### 🛠️ IoT Developer · Electronics Enthusiast · Smart Systems Builder
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+with+ESP32+%F0%9F%94%A7;2%C3%97+Hackathon+Finalist+%7C+2%C3%97+FOSET+1st+Prize+%F0%9F%8F%86;IoT+%7C+Embedded+Systems+%7C+ML+%7C+Web+Dev)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+with+ESP32+%F0%9F%94%A7;3%C3%97+Hackathon+Finalist+%7C+2%C3%97+FOSET+1st+Prize+%F0%9F%8F%86;IoT+%7C+Embedded+Systems+%7C+ML+%7C+Web+Dev)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gourab354)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/user_cooked98)
@@ -31,7 +31,7 @@ class Gourab:
     focus      = ["Embedded Systems", "Smart IoT Devices", "ML Integration"]
     
     achievements = [
-        "🏆 2× Hackathon Finalist",
+        "🏆 3× Hackathon Finalist",
         "🥇 2× 1st Prize @ FOSET",
     ]
     
@@ -135,6 +135,38 @@ class Gourab:
 <div align="center">
 
 ![Top Repos](https://github-contributor-stats.vercel.app/api?username=gourab354&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true)
+
+</div>
+
+---
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gourab354/gourab354/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gourab354/gourab354/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/gourab354/gourab354/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🏅 Achievements & Moments
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><img src="photo 1" width="280" style="border-radius:12px"/><br/><b>🥇 Achievement 1</b></td>
+    <td align="center"><img src="photo 2" width="280" style="border-radius:12px"/><br/><b>🥇 Achievement 2</b></td>
+    <td align="center"><img src="photo 3" width="280" style="border-radius:12px"/><br/><b>🥇 Achievement 3</b></td>
+  </tr>
+</table>
 
 </div>
 

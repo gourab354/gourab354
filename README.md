@@ -110,21 +110,32 @@
 
 ---
 
-## 🏆 Trophies
+## 🏆 Trophies & Achievements
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=gourab354&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=6&row=2)
+![](https://img.shields.io/badge/Contributions-Consistent-%2339FF14?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Code%20Quality-Advanced-%2300FFFF?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Open%20Source-Active-%23FF66CC?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Projects-Portfolio-%23FFAA33?style=for-the-badge&labelColor=0d1117)
 
 </div>
 
 ---
 
-## 🔝 Top Contributions
+## 🔝 Featured Repos
 
 <div align="center">
 
-![Top Repos](https://github-contributor-stats.vercel.app/api?username=gourab354&limit=5&theme=github_dark&combine_all_yearly_contributions=true)
+### My open source projects & active repositories
+
+[![](https://img.shields.io/badge/Smart%20Medicine%20Box-ESP32%20IoT%20Dashboard-%2300FFFF?style=flat-square&logo=arduino&logoColor=white&labelColor=0d1117)](https://github.com/gourab354)
+[![](https://img.shields.io/badge/IoT%20Projects-Arduino%2FPython%2FNode.js-%2339FF14?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/gourab354?tab=repositories)
+[![](https://img.shields.io/badge/Web%20Apps-React%2FDjango%2FVue-%23FF66CC?style=flat-square&logo=code&logoColor=white&labelColor=0d1117)](https://github.com/gourab354?tab=repositories)
+
+[View all repositories →](https://github.com/gourab354?tab=repositories)
+
+</div>
 
 ---
 

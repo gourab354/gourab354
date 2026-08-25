@@ -1,13 +1,13 @@
 <div align="center">
-
-```
-  ██████╗  ██████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
- ██╔════╝ ██╔═══██╗██║   ██║██╔══██╗██╔══██╗██╔══██╗
- ██║  ███╗██║   ██║██║   ██║██████╔╝███████║██████╔╝
- ██║   ██║██║   ██║██║   ██║██╔══██╗██╔══██║██╔══██╗
- ╚██████╔╝╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
-  ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
-```
+  <img src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/59163c56-55ac-4813-b4aa-b57082e708e6" align="middle" alt="Banner" width="100%"/>
+  <img src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/fd716229-fbd9-46d3-8ccd-3697ffe7e41a" width="100%" alt="marginline"/>
+  <div align="center">
+    <img src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/3325b60b-6565-45da-ab3e-9d31341c1b5b" width="1.75%" align="left" alt="flame1"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Gourab+and+Welcome+to+my+Profile!" alt="Hey, I'm Gourab and Welcome to my Profile!" width="90%" align="middle"/>
+    <img src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/3325b60b-6565-45da-ab3e-9d31341c1b5b" width="1.75%" align="right" alt="flame2"/>
+  </div>
+  <img src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/fd716229-fbd9-46d3-8ccd-3697ffe7e41a" width="100%" alt="marginline"/>
+  <img src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/68ba38fe-129a-4d85-be33-62eb4ba50c05" width="100%" alt="memoji"/>
 
 ### 🛠️ IoT Developer · Electronics Enthusiast · Smart Systems Builder
 
@@ -32,25 +32,6 @@
 
 ---
 
-## 🚀 Featured Project
-
-<div align="center">
-
-### 💊 Smart Medicine Box
-> *ESP32-based automated medicine dispenser with real-time web monitoring*
-
-| Component | Details |
-|-----------|---------|
-| 🧠 **MCU** | ESP32 with 5-state machine (IDLE → ALERTING → DISPENSING → CONFIRMED → MISSED) |
-| 🌐 **Backend** | Node.js + WebSocket + REST API |
-| 📟 **Display** | ST7735 TFT with live state dashboard |
-| 🔊 **Alerts** | Buzzer + Servo-controlled lid |
-| 📡 **Sensors** | HC-SR04 Ultrasonic + TTP223 Touch |
-| ⏰ **Time Sync** | NTP (IST) |
-
-</div>
-
----
 
 ## 🧰 Tech Stack
 
@@ -129,7 +110,6 @@
 
 ### My open source projects & active repositories
 
-[![](https://img.shields.io/badge/Smart%20Medicine%20Box-ESP32%20IoT%20Dashboard-%2300FFFF?style=flat-square&logo=arduino&logoColor=white&labelColor=0d1117)](https://github.com/gourab354)
 [![](https://img.shields.io/badge/IoT%20Projects-Arduino%2FPython%2FNode.js-%2339FF14?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/gourab354?tab=repositories)
 [![](https://img.shields.io/badge/Web%20Apps-React%2FDjango%2FVue-%23FF66CC?style=flat-square&logo=code&logoColor=white&labelColor=0d1117)](https://github.com/gourab354?tab=repositories)
 

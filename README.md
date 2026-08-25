@@ -1,311 +1,178 @@
-# Gourab's Professional Portfolio v2.0
-
-A modern, interactive portfolio website for showcasing IoT projects, certifications, and professional achievements. Built with React, Framer Motion, Tailwind CSS, and Vite.
-
-## ✨ Features
-
-- **🎯 Modern Hero Section** - Eye-catching introduction with animated gradient text
-- **📊 Achievement Stats** - Showcase your accomplishments and milestones
-- **🛠️ Projects Showcase** - Filter and display your IoT, web, and ML projects
-- **📜 Certificate Gallery** - Easy certificate management with upload functionality
-- **🎨 Smooth Animations** - Framer Motion animations throughout the site
-- **📱 Fully Responsive** - Mobile, tablet, and desktop optimized
-- **🌐 SEO Optimized** - Meta tags and structured data for better visibility
-- **⚡ Fast Performance** - Built with Vite for lightning-fast load times
-- **🔗 Social Integration** - Links to GitHub, LinkedIn, Instagram, and Email
-- **📧 Contact Form** - Integrated contact form for inquiries
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn package manager
-- Git
-
-### Installation
-
-1. **Clone the Repository**
-```bash
-git clone https://github.com/gourab354/gourab-portfolio-v2.git
-cd gourab-portfolio-v2
-```
-
-2. **Install Dependencies**
-```bash
-npm install
-# or
-yarn install
-```
-
-3. **Start Development Server**
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-The app will open at `http://localhost:5173`
-
-## 📁 Project Structure
+<div align="center">
 
 ```
-gourab-portfolio-v2/
-├── src/
-│   ├── components/
-│   │   ├── Navigation.jsx
-│   │   └── Footer.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Certificates.jsx
-│   │   ├── About.jsx
-│   │   └── Contact.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── public/
-│   ├── projects/
-│   └── certificates/
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-└── index.html
+  ██████╗  ██████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+ ██╔════╝ ██╔═══██╗██║   ██║██╔══██╗██╔══██╗██╔══██╗
+ ██║  ███╗██║   ██║██║   ██║██████╔╝███████║██████╔╝
+ ██║   ██║██║   ██║██║   ██║██╔══██╗██╔══██║██╔══██╗
+ ╚██████╔╝╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
+  ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
 ```
 
-## 🎨 Customization
+### 🛠️ IoT Developer · Electronics Enthusiast · Smart Systems Builder
 
-### Update Your Information
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+with+ESP32+%F0%9F%94%A7;3%C3%97+Hackathon+Finalist+%7C+2%C3%97+FOSET+1st+Prize+%F0%9F%8F%86;IoT+%7C+Embedded+Systems+%7C+ML+%7C+Web+Dev)](https://git.io/typing-svg)
 
-1. **Home Page** (`src/pages/Home.jsx`)
-   - Update hero title and description
-   - Modify stats array with your achievements
-   - Update skills categories
-   - Change featured project details
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gourab354)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/user_cooked98)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gourabd911@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=gourab354&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS)](https://github.com/gourab354)
 
-2. **About Page** (`src/pages/About.jsx`)
-   - Edit bio section
-   - Update journey timeline
-   - Modify core competencies
-   - Update statistics
-
-3. **Projects Page** (`src/pages/Projects.jsx`)
-   - Add/remove projects in the projects array
-   - Include project links, tags, and descriptions
-   - Update project images and highlights
-
-4. **Certificates Page** (`src/pages/Certificates.jsx`)
-   - Add certificates in the initial state
-   - Upload certificate images to `public/certificates/`
-   - Update certificate categories and dates
-
-5. **Contact Page** (`src/pages/Contact.jsx`)
-   - Update social links
-   - Configure form submission (integrate with backend)
-   - Update contact information
-
-6. **Navigation** (`src/components/Navigation.jsx`)
-   - Modify navigation links
-   - Update GitHub profile URL
-   - Change branding/logo
-
-## 📸 Adding Content
-
-### Add a New Project
-
-Edit `src/pages/Projects.jsx` and add to the projects array:
-
-```javascript
-{
-  id: 7,
-  title: 'Your Project Title',
-  description: 'Brief description',
-  category: 'hardware',
-  tags: ['ESP32', 'React', 'Node.js'],
-  image: '🚀',
-  highlights: [
-    'Feature 1',
-    'Feature 2',
-    'Feature 3'
-  ],
-  github: 'https://github.com/yourusername/project',
-  demo: 'https://project-demo.com'
-}
-```
-
-### Add a Certificate
-
-Edit `src/pages/Certificates.jsx` and add to the certificates array:
-
-```javascript
-{
-  id: 4,
-  title: 'Certificate Title',
-  issuer: 'Issuing Organization',
-  date: 'Month Year',
-  description: 'Description',
-  image: '/certificates/certificate-image.jpg',
-  link: 'https://certificate-link.com',
-  category: 'competition'
-}
-```
-
-Then upload the certificate image to `public/certificates/` folder.
-
-## 🚀 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. **Push to GitHub**
-```bash
-git add .
-git commit -m "Initial commit"
-git push origin main
-```
-
-2. **Connect to Vercel**
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Select your GitHub repository
-   - Click "Deploy"
-
-### Deploy to Netlify
-
-1. **Build the project**
-```bash
-npm run build
-```
-
-2. **Connect to Netlify**
-   - Go to [netlify.com](https://netlify.com)
-   - Drag and drop the `dist` folder
-   - Or connect your GitHub repository
-
-### Deploy to GitHub Pages
-
-1. **Update vite.config.js**
-```javascript
-export default {
-  base: '/gourab-portfolio/',
-  // ... rest of config
-}
-```
-
-2. **Build and deploy**
-```bash
-npm run build
-# Push dist folder to gh-pages branch
-```
-
-## 🎯 Recommended Configuration
-
-### Custom Domain
-- Purchase a domain (Namecheap, GoDaddy, etc.)
-- Point DNS to your deployment platform
-- Configure custom domain in platform settings
-
-### Analytics
-Add Google Analytics for tracking:
-```html
-<!-- In index.html -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_ID');
-</script>
-```
-
-### Form Backend
-Connect the contact form to a backend service:
-- Formspree: [formspree.io](https://formspree.io)
-- EmailJS: [emailjs.com](https://emailjs.com)
-- Custom Node.js backend
-
-## 🔧 Tech Stack
-
-- **Frontend**: React 18
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Build Tool**: Vite
-- **Routing**: React Router DOM
-- **Icons**: Lucide React
-- **Deployment**: Vercel/Netlify/GitHub Pages
-
-## 📝 Content Tips
-
-### Project Descriptions
-- Keep descriptions concise (2-3 sentences)
-- Highlight the problem solved
-- Mention key technologies used
-
-### Highlight Points
-- Focus on unique features
-- Mention challenges overcome
-- Show impact or results
-
-### Tags
-- Use relevant, searchable keywords
-- Include programming languages
-- Add frameworks and tools
-
-### Images
-- Use emoji for quick visual representation
-- Or upload actual project images to `public/projects/`
-- Keep file sizes optimized
-
-## 🔐 Best Practices
-
-- ✅ Keep sensitive information out of the code
-- ✅ Use environment variables for API keys
-- ✅ Regular backups of your portfolio
-- ✅ Update projects and achievements regularly
-- ✅ Test on multiple devices and browsers
-- ✅ Monitor analytics and user behavior
-- ✅ Keep dependencies updated
-
-## 📊 Performance Optimization
-
-- Lazy load images with Next.js Image or similar
-- Minimize bundle size
-- Use CDN for assets
-- Enable gzip compression
-- Optimize fonts loading
-- Use WebP format for images
-
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your needs. Share improvements via pull requests!
-
-## 📄 License
-
-This portfolio template is open source and available under the MIT License.
-
-## 📞 Support
-
-For questions or issues:
-- Email: gourabd911@gmail.com
-- GitHub: https://github.com/gourab354
-- LinkedIn: https://linkedin.com/in/gourab354
-
-## 🎉 Version History
-
-### v2.0 (Current)
-- Complete redesign with modern aesthetics
-- Certificate management system
-- Improved animations and UX
-- Better mobile responsiveness
-- Enhanced project filtering
-
-### v1.0
-- Initial portfolio release
-- Basic project showcase
-- Contact form
+</div>
 
 ---
 
-**Made with ❤️ by Gourab**
+## ⚡ About Me
 
-*Build something awesome!* 🚀
+<div align="center">
+
+![About Gourab](https://raw.githubusercontent.com/gourab354/gourab354/main/about.svg)
+
+</div>
+
+---
+
+## 🚀 Featured Project
+
+<div align="center">
+
+### 💊 Smart Medicine Box
+> *ESP32-based automated medicine dispenser with real-time web monitoring*
+
+| Component | Details |
+|-----------|---------|
+| 🧠 **MCU** | ESP32 with 5-state machine (IDLE → ALERTING → DISPENSING → CONFIRMED → MISSED) |
+| 🌐 **Backend** | Node.js + WebSocket + REST API |
+| 📟 **Display** | ST7735 TFT with live state dashboard |
+| 🔊 **Alerts** | Buzzer + Servo-controlled lid |
+| 📡 **Sensors** | HC-SR04 Ultrasonic + TTP223 Touch |
+| ⏰ **Time Sync** | NTP (IST) |
+
+</div>
+
+---
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+**Embedded & Hardware**
+
+![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi&logoColor=white)
+![Home Assistant](https://img.shields.io/badge/Home_Assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white)
+
+**Languages & Backend**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![DjangoREST](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge&logo=django&logoColor=white&labelColor=gray)
+![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)
+
+**Data & ML**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
+
+**Databases & Cloud**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
+**Tools & Design**
+
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.shion.dev/api?username=gourab354&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="180"/>
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=gourab354&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="180"/>
+
+<img src="https://streak-stats.demolab.com/?user=gourab354&theme=tokyonight&hide_border=true" height="180"/>
+
+</div>
+
+---
+
+## 🏆 Trophies & Achievements
+
+<div align="center">
+
+![](https://img.shields.io/badge/Contributions-Consistent-%2339FF14?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Code%20Quality-Advanced-%2300FFFF?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Open%20Source-Active-%23FF66CC?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Projects-Portfolio-%23FFAA33?style=for-the-badge&labelColor=0d1117)
+
+</div>
+
+---
+
+## 🔝 Featured Repos
+
+<div align="center">
+
+### My open source projects & active repositories
+
+[![](https://img.shields.io/badge/Smart%20Medicine%20Box-ESP32%20IoT%20Dashboard-%2300FFFF?style=flat-square&logo=arduino&logoColor=white&labelColor=0d1117)](https://github.com/gourab354)
+[![](https://img.shields.io/badge/IoT%20Projects-Arduino%2FPython%2FNode.js-%2339FF14?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/gourab354?tab=repositories)
+[![](https://img.shields.io/badge/Web%20Apps-React%2FDjango%2FVue-%23FF66CC?style=flat-square&logo=code&logoColor=white&labelColor=0d1117)](https://github.com/gourab354?tab=repositories)
+
+[View all repositories →](https://github.com/gourab354?tab=repositories)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gourab354/gourab354/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gourab354/gourab354/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/gourab354/gourab354/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🏅 Achievements & Moments
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><img src="DSC09036.JPG" width="320" style="border-radius:12px"/><br/><br/><b>🏆 AOTFIESTA</b></td>
+    <td align="center"><img src="SUM_0208.JPG" width="320" style="border-radius:12px"/><br/><br/><b>🎯 View</b></td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+### 💬 Dev Quote of the Day
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+*"Hardware talks, software listens — I make them understand each other."*
+
+</div>

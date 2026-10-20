@@ -1,0 +1,49 @@
+name: Auto Sync Project Uploads & Aura HUD
+
+on:
+  schedule:
+    # Runs every 6 hours to check for new repository uploads
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'auto_updater.py'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-projects:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync latest project uploads to README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python auto_updater.py
+
+      - name: Commit and Push if updated
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n $(git status -s README.md) ]]; then
+            git add README.md
+            git commit -m "🤖 [Auto-Sync] Update README with latest project uploads & telemetry [skip ci]"
+            git push
+          else
+            echo "No README changes detected. Already up-to-date."
+          fi

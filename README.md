@@ -77,16 +77,16 @@
 
 | 🚀 Project | 📝 Highlights & Architecture | 🛠️ Tech Stack | 📅 Uploaded |
 | :--- | :--- | :---: | :---: |
+| **[img-2-display](https://github.com/gourab354/img-2-display)** | GGG | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> | `Oct 2026` |
 | **[portfolio](https://github.com/gourab354/portfolio)** | Production-grade portfolio web application showcasing hardware & AI systems | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> | `Oct 2026` |
 | **[heart-cv](https://github.com/gourab354/heart-cv)** | Real-time biomedical computer vision & physiological pulse / cardiac analysis | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> | `Oct 2026` |
 | **[orbit-eye](https://github.com/gourab354/orbit-eye)** | High-precision sensor tracking and vision telemetry system in C++ | <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/> | `Oct 2026` |
 | **[check-mate](https://github.com/gourab354/check-mate)** | Personal repository for check-mate | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> | `Oct 2026` |
 | **[4legged-crawler](https://github.com/gourab354/4legged-crawler)** | Quadruped robotic crawler architecture with kinematics & embedded C++ control | <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/> | `Sep 2026` |
-| **[drone-gesture](https://github.com/gourab354/drone-gesture)** | AI Vision-based gesture recognition & teleoperation pipeline for aerial drones | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> | `Sep 2026` |
 
 </div>
 
-<p align="right"><sub>⚡ <i>Auto-tracked <b>30 repositories</b> · Last synced: <code>21 Oct 2026 | 08:18 AM IST</code></i></sub></p>
+<p align="right"><sub>⚡ <i>Auto-tracked <b>31 repositories</b> · Last synced: <code>21 Oct 2026 | 04:28 PM IST</code></i></sub></p>
 <!-- RECENT_PROJECTS:END -->
 
 ---

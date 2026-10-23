@@ -1,24 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Zap, Trophy, Code2, Cpu } from 'lucide-react';
+import { ArrowRight, Zap, Trophy, Code2, Cpu, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Lanyard from './Lanyard';
 
 const Home = () => {
   const stats = [
-    { label: '3×', value: 'Hackathon Finalist', icon: Trophy, color: 'from-cyan-400 to-cyan-600' },
-    { label: '1×', value: 'Hackathon Winner', icon: Zap, color: 'from-pink-400 to-pink-600' },
+    { label: '4×', value: 'Hackathon Winner', icon: Trophy, color: 'from-amber-400 to-amber-600' },
+    { label: '9×', value: 'Hackathon Finalist', icon: Zap, color: 'from-cyan-400 to-cyan-600' },
     { label: '2×', value: '1st Prize @ FOSET', icon: Trophy, color: 'from-green-400 to-green-600' },
-    { label: '5+', value: 'IoT Projects', icon: Code2, color: 'from-purple-400 to-purple-600' },
+    { label: '8+', value: 'Robotics & IoT Projects', icon: Code2, color: 'from-purple-400 to-purple-600' },
   ];
 
   const skills = [
-    { category: 'Embedded Systems', items: ['ESP32', 'Arduino', 'C/C++', 'Firmware'] },
-    { category: 'IoT & Hardware', items: ['Sensors', 'Actuators', 'PCB Design', 'Home Assistant'] },
-    { category: 'Backend', items: ['Node.js', 'Python', 'Django REST', 'WebSocket'] },
-    { category: 'Frontend', items: ['React', 'Vue', 'Tailwind', 'Framer Motion'] },
-    { category: 'ML & Data', items: ['TensorFlow', 'PyTorch', 'NumPy', 'Pandas'] },
-    { category: 'Cloud & Tools', items: ['Google Cloud', 'Vercel', 'GitHub', 'Postman'] },
+    { category: 'Embedded & Hardware', items: ['ESP32', 'STM32', 'Arduino', 'Raspberry Pi', 'UART', 'SPI', 'PWM', 'ADC', 'Wi-Fi', 'MQTT', '3D Printing'] },
+    { category: 'Computer Vision & AI', items: ['OpenCV', 'MediaPipe', 'YOLOv8', 'Digital Filtering', 'Face & Hand Tracking'] },
+    { category: 'Languages', items: ['C', 'C++', 'Python', 'JavaScript', 'TypeScript'] },
+    { category: 'Web & Distributed', items: ['Node.js', 'WebSocket', 'React', 'Django REST', 'Streamlit', 'MongoDB'] },
+    { category: 'Engineering Tools', items: ['PlatformIO', 'Git', 'GitHub', 'Figma', 'Postman', 'p5.js'] },
   ];
 
   const containerVariants = {
@@ -80,17 +79,23 @@ const Home = () => {
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
-              <Link to="/projects" className="group relative inline-flex items-center justify-center px-8 py-3 font-semibold text-white overflow-hidden rounded-lg">
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-cyan-600 transition-transform duration-300 group-hover:scale-110"></div>
+              <Link to="/resume" className="group relative inline-flex items-center justify-center px-8 py-3 font-semibold text-slate-950 overflow-hidden rounded-lg bg-gradient-to-r from-cyan-400 to-sky-300 hover:from-cyan-300 hover:to-sky-200 shadow-lg shadow-cyan-500/25 transition-all duration-300 hover:scale-105">
                 <div className="relative flex items-center gap-2">
-                  View Projects
-                  <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
+                  <FileText size={18} />
+                  View Resume
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </div>
               </Link>
 
-              <a href="https://github.com/gourab354" target="_blank" rel="noopener noreferrer" className="px-8 py-3 border border-cyan-500 text-cyan-400 rounded-lg hover:bg-cyan-500/10 transition-all font-semibold flex items-center justify-center gap-2 group">
-                <Cpu size={20} />
-                GitHub Profile
+              <Link to="/projects" className="group relative inline-flex items-center justify-center px-6 py-3 font-semibold text-white overflow-hidden rounded-lg border border-cyan-500/40 hover:bg-cyan-500/10 transition-all duration-300">
+                <div className="relative flex items-center gap-2">
+                  View Projects
+                </div>
+              </Link>
+
+              <a href="https://github.com/gourab354" target="_blank" rel="noopener noreferrer" className="px-6 py-3 border border-slate-700 hover:border-cyan-500 text-gray-300 hover:text-cyan-400 rounded-lg hover:bg-cyan-500/10 transition-all font-semibold flex items-center justify-center gap-2 group">
+                <Cpu size={18} />
+                GitHub
               </a>
             </motion.div>
 

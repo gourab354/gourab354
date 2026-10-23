@@ -1,0 +1,305 @@
+{
+  "basics": {
+    "name": "Gourab Dutta",
+    "label": "Robotics & IoT Architect | Embedded Systems & Computer Vision",
+    "email": "gourabd911@gmail.com",
+    "location": "Howrah, West Bengal, India",
+    "website": "https://portfolio-354.vercel.app",
+    "github": "https://github.com/gourab354",
+    "linkedin": "https://linkedin.com/in/gourabdutta354",
+    "summary": "Electronics and Communication Engineering student who builds embedded, IoT and computer-vision systems end to end: firmware, sensing, wireless links and the software around them. Multiple-time hackathon winner with hands-on hardware experience since Class 10."
+  },
+  "education": [
+    {
+      "institution": "Academy of Technology, Adisaptagram (MAKAUT)",
+      "degree": "B.Tech in Electronics and Communication Engineering",
+      "period": "2025 – 2029",
+      "location": "West Bengal, India"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Intern",
+      "company": "Resurgenix Technologies",
+      "period": "31/03/2026 – 30/04/2026",
+      "location": "West Bengal, India",
+      "highlights": [
+        "Engineering embedded systems, firmware integration, and hardware testing for IoT solutions."
+      ]
+    },
+    {
+      "role": "Core-Member, Hardware Projects",
+      "company": "Build Club AOT (with IIMCIP-TIC) & e-yantra (IIT-Bombay)",
+      "period": "2025 – Present",
+      "location": "Adisaptagram, India",
+      "highlights": [
+        "Built Cratus (combat robot), Sonar Radar, Spectrum Analyzer, Autopilot dashboard and FPV Racer.",
+        "Collaborated on robotics hardware architecture, kinematic simulations, and high-frequency sensor telemetry.",
+        "Conducted workshops on microcontroller programming, PCB fabrication, and autonomous drone flight."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Smart Medicine Box",
+      "tech": [
+        "ESP32",
+        "Node.js",
+        "WebSocket",
+        "ST7735 TFT",
+        "HC-SR04",
+        "Servo"
+      ],
+      "repo": "https://github.com/gourab354/smart-medicine-box",
+      "demo": "",
+      "highlights": [
+        "Built an ESP32 medicine box around a five-state finite state machine with NTP time synchronization, HC-SR04 distance sensing, servo actuation and TTP223 touch input.",
+        "Wrote a Node.js WebSocket dashboard for real-time monitoring and event logging of the device."
+      ]
+    },
+    {
+      "name": "Webcam Heart-Rate Measurement (rPPG) Validated Against ECG",
+      "tech": [
+        "MediaPipe",
+        "ESP32",
+        "AD8232",
+        "OpenCV",
+        "Signal Processing",
+        "Python"
+      ],
+      "repo": "https://github.com/gourab354/heart-cv",
+      "demo": "",
+      "highlights": [
+        "Implemented POS, CHROM and green-channel rPPG on MediaPipe FaceMesh multi-region input, with zero-phase Butterworth filtering (0.75 to 2.8 Hz), harmonic disambiguation and slew-rate limiting.",
+        "Built an AD8232 and ESP32 ECG reference sampling at 250 Hz, plus an analysis pipeline (MAE, RMSE, Bland-Altman, Wilcoxon) across four lighting, distance and motion conditions."
+      ]
+    },
+    {
+      "name": "Orbit Eye, Standalone GPS Smartwatch",
+      "tech": [
+        "OpenStreetMap",
+        "ESP32",
+        "u-blox Neo-6M",
+        "C++",
+        "SPI TFT"
+      ],
+      "repo": "https://github.com/gourab354/orbit-eye",
+      "demo": "",
+      "highlights": [
+        "Wrote firmware for NMEA parsing, a 240x240 SPI display, a four-screen non-blocking UI state machine and a great-circle bearing compass.",
+        "Integrated Google Places with automatic OpenStreetMap Overpass fallback to list the five nearest venues within 3 km; published prebuilt binaries and a browser-based Web Serial flasher."
+      ]
+    },
+    {
+      "name": "Four-Legged Crawler Robot",
+      "tech": [
+        "C++",
+        "Arduino Nano",
+        "Servo Kinematics",
+        "3D Printing"
+      ],
+      "repo": "https://github.com/gourab354/4legged-crawler",
+      "demo": "",
+      "highlights": [
+        "Built a 12-servo quadruped (three joints per leg) with coordinate-based leg control, timer-driven servo updates and gait routines for walking, turning, sitting and waving.",
+        "Included a servo-calibration utility and 3D-printable mechanical parts."
+      ]
+    },
+    {
+      "name": "Air-Dimmer, Gesture-Controlled Lighting",
+      "tech": [
+        "MediaPipe",
+        "ESP32",
+        "Wi-Fi Sockets",
+        "OpenCV",
+        "Python"
+      ],
+      "repo": "https://github.com/gourab354/drone-gesture",
+      "demo": "",
+      "highlights": [
+        "Mapped thumb-to-index finger distance from hand tracking to 0 to 255 PWM brightness, sent to an ESP32 over Wi-Fi sockets."
+      ]
+    },
+    {
+      "name": "ASTRA, Autonomous Subsurface Tracking & Rescue Architecture (Team Circuit Bird)",
+      "tech": [
+        "Raspberry Pi",
+        "Arduino Nano",
+        "MPU9250",
+        "YOLOv8",
+        "Streamlit",
+        "MongoDB"
+      ],
+      "repo": "https://github.com/gourab354",
+      "demo": "",
+      "highlights": [
+        "Designing a multi-legged disaster-rescue robot that detects trapped victims, builds live 3D maps and analyses acoustic and thermal signals.",
+        "Combining OpenCV, MediaPipe and YOLOv8 perception with an MPU9250 IMU and a Streamlit and MongoDB dashboard."
+      ]
+    },
+    {
+      "name": "Gesture-Control Projects",
+      "tech": [
+        "OpenCV",
+        "Python",
+        "p5.js",
+        "MediaPipe"
+      ],
+      "repo": "https://github.com/gourab354/virtual-steering-wheel",
+      "demo": "",
+      "highlights": [
+        "Built a hand-gesture steering wheel for browser racing games, a two-hand neon Cat's Cradle animation in the browser, and a Fruit Ninja-style slicing game."
+      ]
+    },
+    {
+      "name": "Check Mate",
+      "tech": [
+        "JavaScript"
+      ],
+      "repo": "https://github.com/gourab354/check-mate",
+      "demo": "",
+      "highlights": [
+        "Personal repository for check-mate",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    },
+    {
+      "name": "Gesture Puzzle Game",
+      "tech": [
+        "Python"
+      ],
+      "repo": "https://github.com/gourab354/gesture-puzzle-game",
+      "demo": "",
+      "highlights": [
+        "An interactive, touchless computer vision puzzle game using Python, OpenCV, and MediaPipe AI hand-tracking.",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    },
+    {
+      "name": "Zyro Elder Care",
+      "tech": [
+        "TypeScript"
+      ],
+      "repo": "https://github.com/gourab354/zyro-elder-care",
+      "demo": "",
+      "highlights": [
+        "Zyro Elder Care is an AI-powered elderly healthcare system with real-time health monitoring, medicine reminders, SOS alerts, and AI medical report analysis for safer senior care.",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    },
+    {
+      "name": "View Aux",
+      "tech": [
+        "TypeScript"
+      ],
+      "repo": "https://github.com/gourab354/view-aux",
+      "demo": "",
+      "highlights": [
+        "🎧 A democratic, room-based music queue system that strips away the power of the \"Aux Dictator\" and lets the party crowd anonymously upvote, downvote, and auto-skip tracks to keep the collective vibe alive.",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    },
+    {
+      "name": "Aux Cord",
+      "tech": [
+        "CSS"
+      ],
+      "repo": "https://github.com/gourab354/aux-cord",
+      "demo": "https://aux-cord-jade.vercel.app",
+      "highlights": [
+        "🎧 A democratic, room-based music queue system that strips away the power of the \"Aux Dictator\" and lets the party crowd anonymously upvote, downvote, and auto-skip tracks to keep the collective vibe alive.",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    },
+    {
+      "name": "Neon Hand Weaver",
+      "tech": [
+        "HTML"
+      ],
+      "repo": "https://github.com/gourab354/neon-hand-weaver",
+      "demo": "",
+      "highlights": [
+        "Interactive AI-powered hand tracking project that creates glowing neon Cat’s Cradle patterns in real time using MediaPipe Hands and p5.js. Move both hands in front of your webcam to weave stunning futuristic string art directly in the browser.",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    },
+    {
+      "name": "Air Dimmer",
+      "tech": [
+        "Python"
+      ],
+      "repo": "https://github.com/gourab354/Air-Dimmer",
+      "demo": "",
+      "highlights": [
+        "Control LED brightness in real-time using hand gestures, computer vision, and ESP32 over WiFi.",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    },
+    {
+      "name": "Robot Eye Esp8266",
+      "tech": [
+        "C++"
+      ],
+      "repo": "https://github.com/gourab354/ROBOT-EYE-ESP8266",
+      "demo": "",
+      "highlights": [
+        "ROBOT EYE ESP8266",
+        "Autonomous open-source implementation with continuous GitHub telemetry."
+      ]
+    }
+  ],
+  "achievements": [
+    "4x hackathon winner and 9x finalist at collegiate and national level",
+    "First Prize, FOSET 2026 (paper and model competitions)",
+    "First Place, Maze Runner, AOT Fiesta",
+    "Best Beginner Team, View Integreta"
+  ],
+  "skills": {
+    "Languages": [
+      "C",
+      "C++",
+      "Python",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Embedded and Hardware": [
+      "ESP32",
+      "STM32",
+      "Arduino",
+      "Raspberry Pi",
+      "UART",
+      "SPI",
+      "PWM",
+      "ADC",
+      "Wi-Fi",
+      "MQTT",
+      "Firmware State Machines",
+      "3D Printing"
+    ],
+    "Computer Vision and Signal Processing": [
+      "OpenCV",
+      "MediaPipe",
+      "Digital Filtering",
+      "Face and Hand Tracking",
+      "YOLOv8"
+    ],
+    "Web and Tools": [
+      "Node.js",
+      "WebSocket",
+      "React",
+      "Django REST",
+      "Git",
+      "PlatformIO",
+      "Figma",
+      "Postman",
+      "Streamlit",
+      "MongoDB",
+      "p5.js"
+    ]
+  },
+  "metadata": {
+    "lastUpdated": "2026-10-23",
+    "version": "3.0.0",
+    "autoSynced": true
+  }
+}

@@ -7,6 +7,7 @@ import Projects from './Projects';
 import Certificates from './Certificates';
 import About from './About';
 import Contact from './Contact';
+import Resume from './Resume';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <main className="relative z-10">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/certificates" element={<Certificates />} />
             <Route path="/about" element={<About />} />

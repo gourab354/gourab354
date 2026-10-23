@@ -69,8 +69,8 @@ const About = () => {
               from sensor integration to full-stack IoT applications with web dashboards and real-time communication.
             </p>
             <p>
-              I've been recognized as a <span className="text-pink-400 font-semibold">3× Hackathon Finalist</span>, 
-              <span className="text-green-400 font-semibold"> 1× Hackathon Winner</span>, and winner of multiple innovation competitions. 
+              I've been recognized as a <span className="text-pink-400 font-semibold">9× Hackathon Finalist</span>, 
+              <span className="text-green-400 font-semibold"> 4× Hackathon Winner</span>, and <span className="text-cyan-400 font-semibold">FOSET 2026 First Prize Winner</span> (paper & model competitions). 
               I'm driven by the challenge of creating innovative solutions that solve real-world problems.
             </p>
             <p>
@@ -164,20 +164,20 @@ const About = () => {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <div className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-cyan-600 bg-clip-text text-transparent mb-2">5+</div>
-              <div className="text-gray-400">IoT Projects</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-cyan-600 bg-clip-text text-transparent mb-2">8+</div>
+              <div className="text-gray-400">Robotics & IoT Projects</div>
             </div>
             <div>
-              <div className="text-4xl font-bold bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent mb-2">3×</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent mb-2">9×</div>
               <div className="text-gray-400">Hackathon Finalist</div>
             </div>
             <div>
-              <div className="text-4xl font-bold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent mb-2">4×</div>
-              <div className="text-gray-400">Awards Won</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent mb-2">4×</div>
+              <div className="text-gray-400">Hackathon Winner</div>
             </div>
             <div>
-              <div className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent mb-2">12+</div>
-              <div className="text-gray-400">Tech Skills</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent mb-2">15+</div>
+              <div className="text-gray-400">Silicon & CV Skills</div>
             </div>
           </div>
         </motion.div>

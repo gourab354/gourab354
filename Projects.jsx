@@ -9,101 +9,134 @@ const Projects = () => {
     {
       id: 1,
       title: 'Smart Medicine Box',
-      description: 'Intelligent automated medicine dispenser with real-time web monitoring, 5-state machine, ultrasonic detection, and NTP time sync.',
+      description: 'Built an ESP32 medicine box around a five-state finite state machine with NTP time synchronization, ultrasonic distance sensing, servo actuation and capacitive touch input.',
       category: 'hardware',
       tags: ['ESP32', 'Node.js', 'WebSocket', 'ST7735 TFT', 'IoT'],
       image: '💊',
       highlights: [
-        'ESP32 firmware with state machine',
-        'Real-time web dashboard',
-        'WebSocket communication',
-        'TFT display with live updates',
-        'Event logging system'
+        'Five-state finite state machine architecture',
+        'NTP time synchronization with real-time RTC',
+        'HC-SR04 distance sensing & servo lid actuation',
+        'Node.js WebSocket dashboard for live telemetry',
+        'TTP223 capacitive touch confirmation'
       ],
-      github: 'https://github.com/gourab354',
+      github: 'https://github.com/gourab354/smart-medicine-box',
       demo: '#'
     },
     {
       id: 2,
-      title: 'Home Automation System',
-      description: 'Complete smart home solution with Arduino, relay modules, and mobile app control for IoT devices.',
-      category: 'hardware',
-      tags: ['Arduino', 'Home Assistant', 'Python', 'MQTT', 'IoT'],
-      image: '🏠',
+      title: 'Webcam Heart-Rate Measurement (rPPG)',
+      description: 'Contactless biomedical pulse rate extraction using POS, CHROM and green-channel rPPG on MediaPipe FaceMesh multi-region input, validated against AD8232 ECG hardware.',
+      category: 'ml',
+      tags: ['Python', 'OpenCV', 'MediaPipe', 'ESP32', 'AD8232 ECG', 'Digital Filtering'],
+      image: '❤️',
       highlights: [
-        'Multiple sensor integration',
-        'Mobile app control',
-        'Automated schedules',
-        'Energy monitoring',
-        'Voice integration ready'
+        'Zero-phase Butterworth filtering (0.75 to 2.8 Hz)',
+        'Harmonic disambiguation & slew-rate limiting',
+        'AD8232 + ESP32 ECG reference sampling @ 250 Hz',
+        'Bland-Altman, MAE, RMSE & Wilcoxon analysis pipeline',
+        'Evaluated across 4 lighting & motion conditions'
       ],
-      github: 'https://github.com/gourab354',
+      github: 'https://github.com/gourab354/heart-cv',
       demo: '#'
     },
     {
       id: 3,
-      title: 'Real-time Weather Station',
-      description: 'IoT weather monitoring system with multiple sensors and cloud data logging for environmental tracking.',
+      title: 'Orbit Eye — Standalone GPS Smartwatch',
+      description: 'Custom wearable smartwatch running on ESP32 with NMEA sentence parsing, SPI display driving, great-circle compass calculation, and web flasher.',
       category: 'hardware',
-      tags: ['ESP32', 'Sensors', 'Google Cloud', 'Python', 'Data Analytics'],
-      image: '🌤️',
+      tags: ['ESP32', 'C++', 'u-blox Neo-6M', 'SPI TFT', 'Google Places'],
+      image: '🛰️',
       highlights: [
-        'Multiple sensor integration',
-        'Real-time cloud sync',
-        'Data visualization',
-        'Historical analysis',
-        'API integration'
+        'NMEA GPS parsing on 240x240 SPI display',
+        'Four-screen non-blocking UI state machine',
+        'Great-circle bearing compass calculations',
+        'Google Places with OpenStreetMap Overpass fallback',
+        'Browser-based Web Serial flasher tool'
       ],
-      github: 'https://github.com/gourab354',
+      github: 'https://github.com/gourab354/orbit-eye',
       demo: '#'
     },
     {
       id: 4,
-      title: 'Portfolio Website',
-      description: 'Modern, interactive portfolio with Framer Motion animations, Tailwind CSS, and certificate management system.',
-      category: 'web',
-      tags: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite', 'Responsive Design'],
-      image: '🎨',
+      title: 'Four-Legged Crawler Robot',
+      description: '12-servo quadruped robot with inverse kinematics, timer-driven coordinate leg control, and custom 3D printed mechanical chassis.',
+      category: 'hardware',
+      tags: ['Arduino Nano', 'C++', 'Servo Kinematics', '3D Printing'],
+      image: '🕷️',
       highlights: [
-        'Smooth animations',
-        'Responsive design',
-        'Certificate gallery',
-        'Project showcase',
-        'Contact form'
+        '12 micro-servos (3 joints per leg)',
+        'Coordinate-based leg trajectory interpolation',
+        'Timer-driven servo routines (walk, turn, sit, wave)',
+        'Integrated servo-calibration software utility',
+        'Custom 3D-printable modular mechanical parts'
       ],
-      github: 'https://github.com/gourab354/gourab-portfolio',
+      github: 'https://github.com/gourab354/4legged-crawler',
       demo: '#'
     },
     {
       id: 5,
-      title: 'ML-Based Anomaly Detection',
-      description: 'Machine learning model for detecting anomalies in IoT sensor data using TensorFlow and real-time analysis.',
-      category: 'ml',
-      tags: ['TensorFlow', 'Python', 'NumPy', 'Pandas', 'Data Science'],
-      image: '🤖',
+      title: 'Air-Dimmer Gesture Lighting',
+      description: 'Touchless gesture-controlled lighting interface mapping computer vision hand tracking to hardware PWM brightness over Wi-Fi sockets.',
+      category: 'hardware',
+      tags: ['Python', 'OpenCV', 'MediaPipe', 'ESP32', 'Wi-Fi Sockets'],
+      image: '💡',
       highlights: [
-        'TensorFlow LSTM model',
-        'Real-time inference',
-        'Data preprocessing',
-        'Model optimization',
-        'Visualization dashboard'
+        'Real-time MediaPipe hand landmark tracking',
+        'Dynamic thumb-to-index distance calculation',
+        '0-255 PWM continuous brightness scaling',
+        'Low-latency Wi-Fi UDP/TCP socket stream',
+        'Hardware LED driver circuit design'
+      ],
+      github: 'https://github.com/gourab354/drone-gesture',
+      demo: '#'
+    },
+    {
+      id: 6,
+      title: 'ASTRA — Subsurface Rescue Architecture',
+      description: 'Autonomous disaster-rescue multi-legged robotic architecture designed to detect trapped human survivors and map subterranean environments.',
+      category: 'hardware',
+      tags: ['Raspberry Pi', 'Arduino', 'MPU9250', 'YOLOv8', 'Streamlit', 'MongoDB'],
+      image: '🛸',
+      highlights: [
+        'Team Circuit Bird disaster-rescue robotics platform',
+        'OpenCV + YOLOv8 real-time victim perception',
+        'Acoustic & thermal sensor array analysis',
+        'MPU9250 9-DOF IMU spatial orientation telemetry',
+        'Streamlit & MongoDB mission control dashboard'
       ],
       github: 'https://github.com/gourab354',
       demo: '#'
     },
     {
-      id: 6,
-      title: 'REST API for IoT Gateway',
-      description: 'Scalable Node.js REST API with WebSocket support for managing multiple IoT devices and real-time communication.',
-      category: 'backend',
-      tags: ['Node.js', 'Express', 'WebSocket', 'MongoDB', 'REST API'],
-      image: '⚙️',
+      id: 7,
+      title: 'Gesture-Control Gaming & Physics',
+      description: 'Vision-based interactive interfaces including a hand-steered racing controller, neon Cat’s Cradle simulation, and kinetic gesture gaming.',
+      category: 'web',
+      tags: ['Python', 'OpenCV', 'MediaPipe', 'p5.js', 'PyAutoGUI'],
+      image: '🎮',
       highlights: [
-        'RESTful architecture',
-        'Real-time WebSocket',
-        'Database integration',
-        'Authentication',
-        'Error handling'
+        'Virtual hand-gesture steering wheel controller',
+        'Two-hand neon Cat’s Cradle p5.js browser canvas',
+        'Fruit Ninja kinetic slicing gesture engine',
+        'Sub-30ms real-time latency optimization'
+      ],
+      github: 'https://github.com/gourab354/virtual-steering-wheel',
+      demo: '#'
+    },
+    {
+      id: 8,
+      title: 'Cratus & Build Club AOT Projects',
+      description: 'Core-member engineering projects including combat robotics, ultrasonic sonar radar, RF spectrum analyzers, and autopilot telemetry.',
+      category: 'hardware',
+      tags: ['Robotics', 'e-yantra', 'IIMCIP-TIC', 'STM32', 'FPV'],
+      image: '⚡',
+      highlights: [
+        'Cratus heavyweight combat robot chassis & drive',
+        'Sonar radar with rotating servo mapping display',
+        'RF spectrum analyzer & telemetry signal processing',
+        'Autopilot telemetry dashboard for FPV racers',
+        'e-yantra (IIT Bombay) robotics competition entry'
       ],
       github: 'https://github.com/gourab354',
       demo: '#'

@@ -56,7 +56,7 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="mb-20 p-8 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 border border-cyan-500/20"
+          className="mb-12 p-8 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 border border-cyan-500/20"
         >
           <h2 className="text-3xl font-bold mb-6 text-white">Who Am I?</h2>
           <div className="space-y-4 text-gray-300 leading-relaxed text-lg">
@@ -77,6 +77,30 @@ const About = () => {
               Beyond coding and hardware, I'm passionate about sharing knowledge, collaborating on open-source projects, 
               and continuously learning the latest technologies in IoT, embedded systems, and machine learning.
             </p>
+          </div>
+        </motion.div>
+
+        {/* Terminal Dossier Live HUD */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="mb-20 rounded-2xl overflow-hidden border border-red-500/30 shadow-2xl shadow-red-500/10 bg-black/60 backdrop-blur-md p-2 sm:p-4"
+        >
+          <div className="flex items-center justify-between px-3 py-2 mb-2 border-b border-zinc-800">
+            <span className="text-xs font-mono text-red-500 font-bold uppercase tracking-wider flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-red-600 animate-ping"></span>
+              Live Terminal Dossier // Nothing Tech Matrix HUD
+            </span>
+            <span className="text-xs font-mono text-zinc-500">profile.sh --live</span>
+          </div>
+          <div className="w-full flex justify-center">
+            <img 
+              src="/dark.svg" 
+              alt="Gourab Dutta Terminal Dossier" 
+              className="w-full max-w-5xl rounded-xl shadow-lg border border-zinc-900"
+            />
           </div>
         </motion.div>
 

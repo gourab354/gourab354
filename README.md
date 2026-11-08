@@ -47,7 +47,7 @@
 
 <div align="center">
 
-![About Gourab](https://raw.githubusercontent.com/gourab354/gourab354/main/about.svg)
+<img src=".github/assets/dark.svg" width="100%" alt="Gourab Dutta Terminal Dossier"/>
 
 </div>
 
@@ -56,7 +56,7 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  OPERATIVE     : Gourab                                                      │
 │  DISCIPLINE    : Robotics, Embedded Systems, Computer Vision & AI            │
-│  ACCOLADES    : 4x Hackathon Winner 🏆 | 9x Finalist ⚡ | 2x FOSET Champion  │
+│  ACCOLADES    : 4x Hackathon Winner 🏆 | 9x Finalist ⚡ | 2x FOSET Champion │
 │  CURRENT LAB   : Autonomous Gesture Drones & 4-Legged Spider Crawlers        │
 │  CORE MENTOR   : "Hardware talks, software listens — I engineer the bridge." │
 └──────────────────────────────────────────────────────────────────────────────┘

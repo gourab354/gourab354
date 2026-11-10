@@ -77,16 +77,16 @@
 
 | 🚀 Project | 📝 Highlights & Architecture | 🛠️ Tech Stack | 📅 Uploaded |
 | :--- | :--- | :---: | :---: |
+| **[EquationX](https://github.com/gourab354/EquationX)** | Turning Pixels into Mathematics | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> | `Nov 2026` |
 | **[CIRCUITFLOW-AI](https://github.com/gourab354/CIRCUITFLOW-AI)** | AI-powered PCB design software that transforms natural language circuit descriptions into editable schematics and PCB layouts, making electronics design accessible to everyone. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> | `Nov 2026` |
 | **[PhantomBLE](https://github.com/gourab354/PhantomBLE)** | GGG | <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"/> | `Oct 2026` |
 | **[img-2-display](https://github.com/gourab354/img-2-display)** | GGG | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> | `Oct 2026` |
 | **[portfolio](https://github.com/gourab354/portfolio)** | Production-grade portfolio web application showcasing hardware & AI systems | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> | `Oct 2026` |
 | **[orbit-eye](https://github.com/gourab354/orbit-eye)** | High-precision sensor tracking and vision telemetry system in C++ | <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/> | `Oct 2026` |
-| **[check-mate](https://github.com/gourab354/check-mate)** | Personal repository for check-mate | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> | `Oct 2026` |
 
 </div>
 
-<p align="right"><sub>⚡ <i>Auto-tracked <b>32 repositories</b> · Last synced: <code>09 Nov 2026 | 08:21 PM IST</code></i></sub></p>
+<p align="right"><sub>⚡ <i>Auto-tracked <b>33 repositories</b> · Last synced: <code>10 Nov 2026 | 06:32 AM IST</code></i></sub></p>
 <!-- RECENT_PROJECTS:END -->
 
 ---
